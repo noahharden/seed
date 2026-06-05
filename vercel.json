@@ -6,7 +6,7 @@
   "functions": {
     "api/p4r34m.js": {
       "maxDuration": 10,
-      "memory": 
+      "memory": 128
     }
   },
   "routes": [
