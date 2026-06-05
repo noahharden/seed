@@ -1,0 +1,28 @@
+{
+  "name": "xhttp-relay-v2ray-working",
+  "version": "2.0.0",
+  "description": "Working V2Ray/VLESS HTTP Relay on Vercel - Pre-configured for http://vercel.parsashonam.sbs:2096/p4r34m",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "v2ray",
+    "vless",
+    "vmess",
+    "relay",
+    "proxy",
+    "vercel",
+    "edge-function"
+  ],
+  "author": "XHTTPRelayECO",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR-USERNAME/XHTTPRelayECO-v2.0"
+  }
+}
