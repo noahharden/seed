@@ -5,7 +5,7 @@
   "public": true,
   "functions": {
     "api/p4r34m.js": {
-      "maxDuration": 900,
+      "maxDuration": 300,
       "memory": 1024
     }
   },
