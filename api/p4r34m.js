@@ -13,7 +13,7 @@ import { pipeline } from "node:stream/promises";
 export const config = {
   api: { bodyParser: false },
   supportsResponseStreaming: true,
-  maxDuration: ,
+  maxDuration: 900,
 };
 
 // Configuration
