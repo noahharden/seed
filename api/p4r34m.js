@@ -20,10 +20,10 @@ export const config = {
 const TARGET_BASE = "http://vercel.parsashonam.sbs:2096";
 const RELAY_PATH = "/p4r34m";
 const RELAY_KEY = process.env.RELAY_KEY || ""; // Optional authentication
-const UPSTREAM_TIMEOUT_MS = ;
-const MAX_INFLIGHT = ;
-const MAX_UP_BPS = ; // 2.5 MB/s upload
-const MAX_DOWN_BPS = ; // 2.5 MB/s download
+const UPSTREAM_TIMEOUT_MS = 30000;
+const MAX_INFLIGHT = 16;
+const MAX_UP_BPS = 1048576; // 2.5 MB/s upload
+const MAX_DOWN_BPS = 1048576; // 2.5 MB/s download
 
 const PLATFORM_HEADER_PREFIX = "x-vercel-";
 const ALLOWED_METHODS = new Set(["GET", "HEAD", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"]);
